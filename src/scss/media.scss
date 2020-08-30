@@ -1,0 +1,43 @@
+@media only screen and (max-width : 1019px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .col {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+
+  .wrapper,
+  .inner {
+    display: block;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width : 699px) {
+  .container {
+    max-width: 320px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+  }
+}
